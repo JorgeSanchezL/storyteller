@@ -1,0 +1,75 @@
+= Storyteller
+:toc:
+:toclevels: 2
+:icons: font
+
+A web application designed to help game masters manage hidden-role game sessions.
+It works like a digital notebook: organizes rounds, turns, and player states,
+without automating decisions or replacing the game master.
+
+Currently, it supports sessions of *Les Loups-Garous de Thiercelieux*.
+
+== Features
+
+* Round and phase management
+* Player and role tracking
+* Support tool for the game master
+* Simple interface without official graphical material
+* Web application built with Vite
+
+== Current Project Status
+
+This application is in an early stage of development.
+
+=== Supported Games
+
+* *Les Loups-Garous de Thiercelieux*
+
+=== Implemented Roles
+
+* Basic Role (Villager)
+* Werewolf
+* Witch
+
+This section will expand as new roles and mechanics are implemented.
+
+=== Languages
+
+* Spanish (currently the only supported language)
+
+== Installation and Running
+
+This project is a web application created with Vite.
+
+[source,bash]
+----
+npm install
+npm run dev
+----
+
+Then open your browser at the URL provided by Vite (usually `http://localhost:5173`).
+
+== Usage
+
+The application is intended to be used by the game master during sessions,
+allowing them to keep track of the game state in an organized and clear way,
+as a digital alternative to pen and paper.
+
+
+== License
+
+This project is licensed under the *GNU Affero General Public License v3.0*.
+
+See the `LICENSE` file for more details.
+
+
+== Legal Notice and Credits
+
+This is an unofficial, fan-made application created by fans,
+not affiliated with the authors or the publisher of the game.
+
+*Les Loups-Garous de Thiercelieux* is a board game created by
+Philippe des Pallières and Hervé Marly, published by Asmodee.
+
+All trademarks and copyrights related to the game
+belong to their respective owners.
